@@ -1,0 +1,133 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+    /* background:#f4f7fc; */
+    background-color: #1E2A56;
+    
+
+}
+
+/* Center Card */
+
+.contact-container{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+
+}
+
+/* Card */
+
+.contact-card{
+
+    width:400px;
+
+    background:#fff;
+
+    padding:45px;
+
+    border-radius:25px;
+
+    box-shadow:0 5px 20px rgba(36, 29, 29, 0.06);
+
+}
+
+/* Heading */
+
+.contact-card h1{
+
+    text-align:center;
+
+    margin-bottom:25px;
+
+    color:#1E2A56;
+
+}
+
+/* Inputs */
+
+.input-box{
+
+    display:flex;
+
+    flex-direction:column;
+
+    margin-bottom:20px;
+
+}
+
+.input-box label{
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+.input-box input{
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+.input-box input:focus{
+
+    border-color:#1E2A56;
+
+}
+
+/* Social Links */
+
+.social-links{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-top:25px;
+
+}
+
+.social-links a{
+
+    text-decoration:none;
+
+    background:#1E2A56;
+
+    color:#fff;
+
+    padding:10px 20px;
+
+    border-radius:8px;
+
+    transition:.3s;
+
+}
+
+.social-links a:hover{
+
+    background:#424f74;
+
+    transform:translateY(-3px);
+
+}
