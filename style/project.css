@@ -1,0 +1,49 @@
+.project-hero{
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   padding: 30px;
+}
+/* body{
+    background-color:#0f04ae ;
+} */
+h2,
+h1{
+    display: block;
+    text-align: center;
+    margin: 20px ;
+    /* color: #0f04ae; */
+}
+span{
+    color: #F9A826;
+}
+.left p{
+    margin: 20px;
+    width: auto;
+    align-items: justify;
+    /* color: aliceblue; */
+}
+.right img{
+
+    height: auto;
+    margin: auto;
+    padding: 20px;
+     max-width: 700px;
+}
+.para-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.para-btn button{
+    background-color: #0f04ae;
+    font-size: 1rem;
+    color: aliceblue;
+    border: 2px solid blanchedalmond;
+    padding: 10px;
+    border-radius: 6px;
+
+}
