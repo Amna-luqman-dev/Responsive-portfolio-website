@@ -20,21 +20,44 @@
        <nav> 
             <ul class="nav-links">
                 
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#skills">Skills</a></li>
                 
             </ul>
         </nav> 
         </div>
 
     </header>
-    <footer style="height: 60px; width: full; background-color: black;">
+
+<section id="home"></section>
+  <section id="about"></section>
+  <section id="projects"></section>
+  <section id="contact"></section>
+  <section id="skills"></section>
+
+  <script>
+    // JS to load external HTML components
+    function loadHTML(id, file) {
+      fetch(file)
+        .then(res => res.text())
+        .then(data => document.getElementById(id).innerHTML = data);
+    }
+
+    loadHTML("home", "home.html");
+    loadHTML("about", "about.html");
+    loadHTML("projects", "projects.html");
+    loadHTML("contact", "contact.html");
+    loadHTML("skills", "skills.html");
+
+  </script>
+
+    <!-- <footer style="height: 60px; width: full; background-color: rgb(135, 123, 123);">
 <a href="github" >github</a>
 <a href="linkedin">linkedin</a>
 
-    </footer>
+    </footer> -->
 </body>
 </html>
