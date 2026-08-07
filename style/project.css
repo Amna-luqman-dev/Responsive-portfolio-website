@@ -1,14 +1,12 @@
 .project-hero{
-   /* display: flex;
-   justify-content: center;
-   align-items: center; */
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    padding: 30px;
 }
-/* body{
-    background-color:#0f04ae ;
-} */
+nav{
+    position: fixed;
+}
+
 h2,
 h1{
     display: block;
@@ -46,4 +44,8 @@ span{
     padding: 10px;
     border-radius: 6px;
 
+}
+.para-btn a{
+    text-decoration: none;
+    color: aliceblue;
 }
